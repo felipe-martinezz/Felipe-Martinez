@@ -53,7 +53,8 @@
   $rrss: (
       github: #1d1d1d,
       twitter: #55acee,
-      instagram: #c92d8f
+      instagram: #c92d8f,
+      twitch: #8841da
   );
 
   @each $name, $color in $rrss {
