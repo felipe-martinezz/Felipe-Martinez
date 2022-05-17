@@ -1,0 +1,23 @@
+.gallery {
+    margin-top: 60px;
+
+    &__title {
+        @extend .titleTemplate;
+    }
+
+    &__container {
+        @include cardContainer(center, "");
+    }
+
+    img {
+        width: 160px;
+        height: auto;
+        margin: 0 10px;
+        border-radius: 20px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}
